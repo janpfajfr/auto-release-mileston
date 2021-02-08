@@ -8,4 +8,4 @@ LABEL repository="https://github.com/janpfajfr/auto-release-milestone"
 LABEL maintainer="Jan Pfajfr"
 
 COPY entrypoint.sh /
-ENTRYPOINT [ "entrypoint.sh" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
